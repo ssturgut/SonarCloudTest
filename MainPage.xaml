@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SHA.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="sha_logo.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="SHA EnCrypter"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Lütfen metin giriniz veya dosya yükleyiniz."
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <HorizontalStackLayout 
+                HorizontalOptions="Center" >
+                <RadioButton 
+                    x:Name="btnSha256"
+                    Margin="0,0,100,0"
+                    Content="SHA-256"
+                    IsChecked="true"
+                    CheckedChanged="btnSha256_CheckedChanged"/>
+                <RadioButton
+                    x:Name="btnSha512"
+                    Content="SHA-512" />
+            </HorizontalStackLayout>
+            
+            <Editor
+                x:Name="editorKullaniciMetni"
+                Placeholder="Şifrelemek istediğiniz metni giriniz."
+                BackgroundColor="White"
+                TextColor="Black"
+                AutoSize="TextChanges"
+                MinimumHeightRequest="50"
+                TextChanged="editorKullaniciMetni_TextChanged"
+            />
+            <Button
+                x:Name="btnDosyaYukle"
+                Text="Dosya Yükle" 
+                Clicked="btnDosyaYukle_Clicked"
+                HorizontalOptions="Fill" 
+                TextColor="White"
+                />
+
+            
+            <Label
+                Margin="1,50,0,0"
+                Text="Şifrelenmiş Metin"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Editor
+                x:Name="editorSifrelenmisMetin"
+                Placeholder=""
+                BackgroundColor="White"
+                TextColor="Black"
+                AutoSize="TextChanges"
+                MinimumHeightRequest="50"
+                IsReadOnly="True"
+            />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

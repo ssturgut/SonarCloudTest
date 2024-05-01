@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHA", "SHA.csproj", "{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA76D71-BCA2-46AE-BB50-5550C62DA3AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CCA780B-B8AC-44D9-833D-5FD592897C4D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.csproj.user
+
+# Compiled binaries
+*.dll
+*.exe
+
+# Package Manager Directories
+node_modules/
+packages/
